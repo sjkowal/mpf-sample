@@ -2,3 +2,12 @@
 .godot/
 /android/
 logs/
+
+# macOS Finder metadata
+.DS_Store
+
+# MPF runtime files, written into the project folder when it runs
+/data/
+*.bundle
+# rpi-pinball's MPF-at-boot switch (pinball-autostart on/off), per machine
+/.autostart
